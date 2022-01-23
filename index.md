@@ -72,11 +72,11 @@ Results of Search
 ['banjir', 'kerajaan', 'raja', 'rakyat'] : 2
 ```
 
-There are some interesting grouping of keywords in tweets. The most frequent is "kerajaan" and "raja" with 103 hits. However, that is not a surprising pairing. A surprising correlation is "banjir" and "Azam Baki" with 64 hits. Twitter users are correlating flood situations with the current predicament of Azam Baki. This correlation is also supported by the grouping, "banjir", "Azam Baki", and "rakyat". Another interesting one is "korup" and "raja" with 60 hits. It seems that twitter users are correlating corruption with the royal institution. There are also no groupings with "melayu". None at all. This could mean that the MACC scandal is not considered a racial issue.
+There are some interesting grouping of keywords in tweets. The most frequent is "kerajaan" and "raja" with 109 hits. However, that is not a surprising pairing. A surprising correlation is "banjir" and "Azam Baki" with 64 hits. Twitter users are correlating flood situations with the current predicament of Azam Baki. This correlation is also supported by the grouping, "banjir", "Azam Baki", and "rakyat". Another interesting one is "korup" and "raja" with 60 hits. It seems that twitter users are correlating corruption with the royal institution. There are also no groupings with "melayu". None at all. This could mean that the MACC scandal is not considered a racial issue.
 
 ## Limitations
 
-This research project has several limitations in its results. Firstly, the ruleset could be more expansive to capture a much more variety of tweets that are politically inclined. However, we are limited by twitter's API limitation on stream tweets feature. Secondly, the keywords searched for finding adjacent issues could be added more into it to create a better picture of political issues discussed in those tweets.  However, I don't have time.
+This research project has several limitations in its results. Firstly, the ruleset could be more expansive to capture a much more variety of tweets that are politically inclined. However, we are limited by twitter's API limitation on stream tweets feature. Secondly, the keywords searched for finding adjacent issues could be added more into it to create a better picture of political issues discussed in those tweets.  However, I don't have time. Lastly, there other better methods to analyze the tweets that yield better insight and results. However, I am severely limited by a lack of experience and expertise.
 
 ## Technologies
 
