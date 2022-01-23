@@ -12,11 +12,11 @@ for l in lines :
     for c in line_chars :
         if ((c == ' ') or (c == ':')) and (read_to_buffer == True): 
             read_to_buffer = False
-            if (len(buffer) <= 15) and ("".join(buffer) not in accounts) and (len(line_chars) <= 280) and ("".join(buffer) not in blacklisted_accs):
+            if (len(buffer) <= 15) and ("".join(buffer) not in accounts) and (len(line_chars) <= 280) :
                 accounts.append("".join(buffer))
                 freq.append(1)
                 twt_len.append(len(line_chars))
-            elif (len(buffer) <= 15) and ("".join(buffer) in accounts) and (len(line_chars) <= 280):
+            elif (len(buffer) <= 15) and ("".join(buffer) in accounts) and (len(line_chars) <= 280) :
                 freq[accounts.index("".join(buffer))] += 1
                 twt_len[accounts.index("".join(buffer))] += len(line_chars)
             buffer = []
