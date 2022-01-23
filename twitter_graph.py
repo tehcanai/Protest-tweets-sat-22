@@ -28,9 +28,6 @@ avg_twt_len = []
 for i in range(len(freq)) :
     avg_twt_len.append(twt_len[i]/freq[i])
 
-for i, txt in enumerate(accounts):
-    if (freq[i] >= 20) : plt.annotate(txt, (avg_twt_len[i], freq[i]))
-
 plt.scatter(avg_twt_len, freq, c="black", s=5)
 plt.rcParams.update({'font.size': 2})
 plt.xlabel("Average tweet length ")
