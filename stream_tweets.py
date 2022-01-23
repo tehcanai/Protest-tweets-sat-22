@@ -27,7 +27,7 @@ def get_stream() :
             if (len(data) > 20) :
                 df = json.loads(data)
                 print(str(datetime.now()) + " : \n" + df['data']['text'] + "\n")
-                write_data(df, "sat22-1-22")
+                write_data(df, "dataset")
         except Exception:
             get_stream()
 
