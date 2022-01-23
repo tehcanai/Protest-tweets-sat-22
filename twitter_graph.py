@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-lines_f = open("sat22-1-22", "r", encoding="utf-8")
+lines_f = open("dataset", "r", encoding="utf-8")
 
 lines = lines_f.readlines()
 
