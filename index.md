@@ -4,13 +4,13 @@ On 22 January 2022, hundreds of protesters made up of political parties and civi
 
 ## Data Collection
 
-About 90k tweets were pulled with twitter API's stream tweets feature with about 5% sampled for the dataset. The code for streaming the tweets can be found in the project repo: https://github.com/tehcanai/Protest-tweets-sat-22/blob/47d66a944adfd52cb8655386c39ffeba02cf468c/stream_tweets.py
+About 90k tweets were pulled with twitter API's stream tweets feature with about 5% sampled for the dataset. The code for streaming the tweets can be found in the project repo: <href  src ="https://github.com/tehcanai/Protest-tweets-sat-22/blob/47d66a944adfd52cb8655386c39ffeba02cf468c/stream_tweets.py">here</href>
 
-Dataset: https://github.com/tehcanai/Protest-tweets-sat-22/blob/5b0905c8f76061b6abe6a06be5f632eee0317e8a/resources/sat22-1-22
+Dataset: <href src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/5b0905c8f76061b6abe6a06be5f632eee0317e8a/resources/sat22-1-22">here</href>
 
 ### Stream Tweet Ruleset
 
-The ruleset for the tweets to be pulled consists of words that can be found such usually in tweets concerning politics. Thus, we filtered the stream based on five tags we created based on issues which are Malay, Royals, Political Parties, Governement, and People in an attempt to pull the tweets that are actually concerning politics.
+The ruleset for the tweets to be pulled consists of words that can be found such usually in tweets concerning politics. Thus, we filtered the stream based on five tags we created based on issues which are Malay, Royals, Political Parties, Governement, and People in an attempt to pull the tweets that are actually concerning politics. There are no tags related to protests, corruption, or the MACC as we intend to check if these issues will be placed in similar contexts with the created tags by twitter accounts.
 
 Ruleset:
 ```markdown
@@ -33,10 +33,11 @@ Ruleset:
 
 ### Popularity vs Tweet Length
 
-We attempted to look on who the influential accounts were on the day. This is measured by the frequencies of retweets and mentions of accounts as a proxy for the popularity of the accounts. 
+We attempted to look on who the influential accounts were on the day. This is measured by the frequencies of retweets and mentions of accounts as a proxy for the popularity of the accounts. Thus, we parsed the dataset for accounts and averaged the tweet lengths the accounts are mentioned on. The plot is as below:
 
-<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/overview.png" class="img-responsive" alt=""> </div>
+<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/overview.png" class="img-responsive" alt=""></img>
 
+From the graph, the top influential accounts are identified as abolqazCTG, aminlandak, syedAkramin, jedildzuhrie, and H_Bakkaniy. From a quick search accounts, we can check for the tweets that were influential during that day
 
-
+<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/med_accs.png" class="img-responsive" alt=""></img>
 
