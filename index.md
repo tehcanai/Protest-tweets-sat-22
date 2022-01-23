@@ -1,3 +1,5 @@
+## An Analysis of Tweets Surrounding The 22 January 2022 Protests on MACC 
+
 ## Introduction
 
 On 22 January 2022, hundreds of protesters made up of political parties and civil societies took to streets of Kuala Lumpur, Malaysia to demand for the resignation of MACC Chief, Tan Sri Dato’ Sri Haji Azam bin Baki amidst the corruption scandals plaguing his tenure. As the action happened on the streets, in this resarch project, we will look for the conversations happening surrounding the events of the protest on the twitter digital space with the outcome of gaining insights on political conversations in Malaysia.
@@ -35,9 +37,12 @@ Ruleset:
 
 We attempted to look on who the influential accounts were on the day. This is measured by the frequencies of retweets and mentions of accounts as a proxy for the popularity of the accounts. Thus, we parsed the dataset for accounts and averaged the tweet lengths the accounts are mentioned on. The plot is as below:
 
-<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/overview.png" class="img-responsive" alt=""></img>
+<img url="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/overview.png">
 
-From the graph, the top influential accounts are identified as abolqazCTG, aminlandak, syedAkramin, jedildzuhrie, and H_Bakkaniy. From a quick search accounts, we can check for the tweets that were influential during that day
+From the graph, the top influential accounts are identified as abolqazCTG, aminlandak, syedAkramin, jedildzuhrie, and H_Bakkaniy. From a quick search accounts, we can check for the tweets that were influential during the protests
 
-<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/med_accs.png" class="img-responsive" alt=""></img>
+abolqazCTG
+<blockquote class="twitter-tweet"><p lang="in" dir="ltr">Azam Baki ni mesti boss level lain ni. Tutup KL sampai macam ni.<br><br>Efficient juga PDRM ni. Boleh divert dan kerah 1,000 orang. Time banjir dekat mana?<br><br>Untuk rakyat punya lembab, lawan rakyat laju je. Faceless tools of cowardice oppressors.<a href="https://twitter.com/hashtag/TangkapAzamBaki?src=hash&amp;ref_src=twsrc%5Etfw">#TangkapAzamBaki</a></p>&mdash; Abol The CrashTestGuy Qaz (@AbolqazCTG) <a href="https://twitter.com/AbolqazCTG/status/1484695230591152128?ref_src=twsrc%5Etfw">January 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<img url="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/med_accs.png"></img>
 
