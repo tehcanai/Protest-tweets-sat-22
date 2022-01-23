@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/tehcanai/Protest-tweets-sat-22/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+On 22 January 2022, hundreds of protesters made up of political parties and civil societies took to streets of Kuala Lumpur, Malaysia to demand for the resignation of MACC Chief, Tan Sri Dato’ Sri Haji Azam bin Baki amidst the corruption scandals plaguing his tenure. As the action happened on the streets, in this resarch project, we will look for the conversations happening surrounding the events of the protest on the twitter digital space with the outcome of gaining insights on political conversations in Malaysia.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Data Collection
 
-### Markdown
+About 90k tweets were pulled with twitter API's stream tweets feature with about 5% sampled for the dataset. The code for streaming the tweets can be found in the project repo: https://github.com/tehcanai/Protest-tweets-sat-22/blob/47d66a944adfd52cb8655386c39ffeba02cf468c/stream_tweets.py
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Dataset: https://github.com/tehcanai/Protest-tweets-sat-22/blob/5b0905c8f76061b6abe6a06be5f632eee0317e8a/resources/sat22-1-22
 
+### Stream Tweet Ruleset
+
+The ruleset for the tweets to be pulled consists of words that can be found such usually in tweets concerning politics. Thus, we filtered the stream based on five tags we created based on issues which are Malay, Royals, Political Parties, Governement, and People in an attempt to pull the tweets that are actually concerning politics.
+
+Ruleset:
 ```markdown
-Syntax highlighted code block
+"value": "melayu OR melayu islam OR ketuanan melayu OR bangsa melayu",
+"tag": "melayu"
 
-# Header 1
-## Header 2
-### Header 3
+"value": "sultan melayu OR agong OR raja melayu",
+"tag": "sultan"
+ 
+"value": "umno OR pakatan harapan OR DAP malaysia OR Barisan Nasional",
+"tag": "parti politik"
 
-- Bulleted
-- List
+"value": "Kerajaan OR gov malaysia OR malaysian government OR gomen OR kjaan",
+"tag": "Kjaan"
+ 
+"value": "rakyat OR marhaen OR negara",
+"tag": "negara"
+ ```
+## Analysis and Results
 
-1. Numbered
-2. List
+### Popularity vs Tweet Length
 
-**Bold** and _Italic_ and `Code` text
+We attempted to look on who the influential accounts were on the day. This is measured by the frequencies of retweets and mentions of accounts as a proxy for the popularity of the accounts. 
 
-[Link](url) and ![Image](src)
-```
+<img src="https://github.com/tehcanai/Protest-tweets-sat-22/blob/b0ee7ba72c78e652f87731ed78c8e59f51f11d10/resources/img/overview.png" class="img-responsive" alt=""> </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tehcanai/Protest-tweets-sat-22/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
